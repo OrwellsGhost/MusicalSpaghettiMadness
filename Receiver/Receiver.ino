@@ -11,7 +11,7 @@ char buffer[10];
 int length = 0;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(57600);
   midiSerial.begin(31250);
   resetInput();
 }

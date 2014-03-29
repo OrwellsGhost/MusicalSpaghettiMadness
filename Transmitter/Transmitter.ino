@@ -9,7 +9,7 @@ int vals[] = {0,0,0,0,0,0};
 byte instruments[] = {12, 9, 91, 104, 8, 118};
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(57600);
 }
 
 void loop() {
